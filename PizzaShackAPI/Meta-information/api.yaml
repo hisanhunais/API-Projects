@@ -1,0 +1,17 @@
+id:
+  providerName: admin
+  apiName: PizzaShackAPI
+  version: 1.0.0
+description: |
+  This document describe a RESTFul API for Pizza Shack online pizza delivery store.
+type: HTTP
+context: /t/companyt/pizzashack/1.0.0/1.0.0
+contextTemplate: /t/companyt/pizzashack/1.0.0/{version}
+availableTiers:
+- name: Unlimited
+status: CREATED
+visibility: public
+transports: http,https
+productionUrl: http://localhost:8080
+sandboxUrl: http://localhost:8081
+enableStore: true

@@ -1,0 +1,16 @@
+environments:
+  - name: dev
+    endpoints:
+      production:
+      sandbox:
+  - name: prod
+    endpoints:
+      production:
+        url: "http://prod.wso2.com"
+      sandbox:
+        url: "http://prod.sandbox.wso2.com"
+
+deploy:
+  import:
+    update: true
+    preserveProvider: true
