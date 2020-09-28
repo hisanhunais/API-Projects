@@ -6,9 +6,9 @@ environments:
   - name: prod
     endpoints:
       production:
-      	url: 'http://prod.wso2.com'
+        url: "http://prod.wso2.com"
       sandbox:
-      	url: 'http://prod.sandbox.wso2.com'
+        url: "http://prod.sandbox.wso2.com"
 
 deploy:
   import:
